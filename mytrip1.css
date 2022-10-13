@@ -1,0 +1,153 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+  background-position: center;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.content-box{
+   background: red;
+   padding: 30px;
+   padding-left: 50px;
+   padding-right: 30px;
+   padding-top: 80px;
+    text-align: right;
+    height:10px;
+    
+   
+}
+.content-box ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: red;
+}
+.content-box ul li
+{
+    width: 100%;
+    margin-left: 100px;
+    
+    padding: 10px 60px;
+    height: 20px;
+}
+.content-box ul li a
+{
+  text-decoration: none;
+  color: red;
+  font-size: 70px;
+  
+
+}
+.logo
+{
+  
+  float: left;
+  font-family: serif;
+  padding-left: 80px;
+  padding-top: 20px;
+  color: rgb(64, 171, 233);
+  font-size: 26px;
+}
+.content-box ul li button
+{
+  background: transparent;
+}
+.content-box ul li button:hover
+{
+  color: aqua;
+}
+
+.search-field {
+  height: 40px;
+  width: 298px;
+  margin-top:501px;
+  border: none;
+  outline:none;
+  padding: 0 25px;
+  font-size: 17px;
+}
+
+input{
+  position: relative;
+  border:none;
+  outline:none;
+}
+.active{
+  height:40px;
+  background-color: rgb(64, 171, 233);
+  border:none;
+  width:80px;
+  cursor: pointer;
+  font-size:17px;
+}
+html{
+  scroll-padding-top: 5.5rem;
+  scroll-behavior: smooth;
+}
+.heading{
+  text-align: center;
+  color:black;
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+  margin-top:50px;
+}
+.destination .box-container{
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+ gap:1rem;
+}
+.destination .box-container .box{
+  padding-right:2.5rem;
+  padding-left:2.5rem;
+  padding-top: 2.5rem;
+  padding-bottom:2.5rem;
+  background:#fff;
+  border-radius: .5rem;
+  border: .1rem solid rgba(0,0,0,0.2);
+  box-shadow: var(--box-shadow);
+  position: relative;
+  overflow: hidden;
+  text-align:center;
+
+}
+
+.destination .box-container .box span{
+  font-weight: bolder;
+  margin-right: 1rem;
+  font-size: 2.5rem;
+}
+@media (max-width:991px){
+  htm{
+    font-size: 50%;
+  }
+  .destination .box-container .box img{
+    height: auto;
+    width: 100%;
+  }
+}
+.Activities .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+  gap:1rem;
+  margin:30px;
+ }
+ .Activities .box-container .box span{
+  font-weight: bolder;
+  margin-right: 1rem;
+  font-size: 2.5rem;
+
+}
+@media (max-width:991px){
+  htm{
+    font-size: 50%;
+  }
+  .Activities .box-container .box img{
+    height: auto;
+    width: 100%;
+  }
+}
